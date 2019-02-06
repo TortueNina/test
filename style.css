@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+  /* text-align: center; */
+}
+#top {
+  text-align: center;
+}
+/* #bottom{
+    text-align: center;
+    } */
+
+#recherche {
+  padding-left: 30px;
+  padding-right: 20px;
+  /* padding-top: 10px;
+     padding-bottom: 10px; */
+  height: 25px;
+  vertical-align: middle;
+  border-radius: 10px 0px 0px;
+  border: 2px outset goldenrod;
+  border-right: 1px outset goldenrod;
+}
+#loupe {
+  /* padding-right: 10px;
+    padding-left: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; */
+  align-content: center;
+  height: 25px;
+  vertical-align: middle;
+  border-radius: 0px 0px 10px;
+  border: 2px outset goldenrod;
+  border-left: 1px outset goldenrod;
+}
+#description {
+  padding: 30px;
+  margin-top: 5px;
+  width: 80%;
+  height: 150px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px outset goldenrod;
+}
+#ajouter {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkolivegreen;
+  color: antiquewhite;
+}
+#ajouter:hover {
+  background-color: goldenrod;
+  border: 2px outset goldenrod;
+}
+.profil {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  /* height: 100px; */
+  width: 80%;
+  /* overflow: auto;
+    vertical-align: middle; */
+  margin: 10px;
+  flex-direction: row;
+  border-collapse: collapse;
+  align-content: center;
+  display: flex;
+  /* display: inline-block; */
+  border: 2px outset goldenrod;
+  margin: 20px auto;
+}
+.shadow {
+  box-shadow: 2px 3px 5px 7px rgba(250, 249, 247, 0.651);
+}
+h3 {
+  display: inline-block;
+  /* padding: 30px; */
+}
+.photo {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 75px;
+  /* float: left; */
+  margin: 10px;
+}
+p {
+  display: inline-block;
+  vertical-align: middle;
+  /* padding: 30px; */
+  margin: 10px;
+}
+.trash {
+  display: inline-block;
+  /* float: right; */
+  margin: 10px;
+}
+.trash svg:hover path {
+  fill: brown;
+}
